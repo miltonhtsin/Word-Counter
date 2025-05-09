@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Word Counter</h1>
+        <div class="input-container">
+            <textarea id="text-input" placeholder="Enter your text here..."></textarea>
+            <div class="controls">
+                <button id="clear-btn">Clear Text</button>
+                <button id="copy-btn">Copy Stats</button>
+            </div>
+        </div>
+        <div class="stats-container">
+            <div class="stat-box">
+                <h3>Words</h3>
+                <p id="word-count">0</p>
+            </div>
+            <div class="stat-box">
+                <h3>Characters</h3>
+                <p id="char-count">0</p>
+            </div>
+            <div class="stat-box">
+                <h3>Sentences</h3>
+                <p id="sentence-count">0</p>
+            </div>
+            <div class="stat-box">
+                <h3>Paragraphs</h3>
+                <p id="paragraph-count">0</p>
+            </div>
+        </div>
+        <div class="keywords-container">
+            <h3>Top Keywords</h3>
+            <div id="keywords-list"></div>
+        </div>
+    </div>
+    <footer>
+        <p>Word Counter App | Developed by Milton</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 
