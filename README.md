@@ -32,4 +32,4 @@ This project uses vanilla JavaScript with no external dependencies, making it ea
 
 ## License
 
-Made by Milton 
+Made by Milton
